@@ -99,7 +99,7 @@ function getWeather(lat, long) {
   QUERY = document.getElementById("city").value;
   reset();
   return fetch(
-    `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${weatherKey}&units=metric`
+    `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${weatherKey}&units=metric`
   )
     .then((response) => {
       if (response.ok) {
