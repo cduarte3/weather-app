@@ -6,12 +6,9 @@
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "latest",
-    "parcel-bundler": "^2.0.0"
+    "parcel": "latest"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "parcel": "latest",
-    "parcel-bundler": "^2.0.0"
+    "dotenv": "^16.3.1"
   }
 }
