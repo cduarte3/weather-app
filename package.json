@@ -1,0 +1,14 @@
+{
+  "name": "weather-app",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
